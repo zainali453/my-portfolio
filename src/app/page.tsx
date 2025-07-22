@@ -5,11 +5,16 @@ import { ExperienceSection } from "@/components/ExperienceSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
-import { generatePersonSchema, generateWebsiteSchema } from "@/lib/schema";
+import {
+  generatePersonSchema,
+  generateWebsiteSchema,
+  generateProfessionalServiceSchema,
+} from "@/lib/schema";
 
 export default function Home() {
   const personSchema = generatePersonSchema();
   const websiteSchema = generateWebsiteSchema();
+  const professionalServiceSchema = generateProfessionalServiceSchema();
 
   return (
     <>
@@ -20,6 +25,12 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(professionalServiceSchema),
+        }}
       />
       <main className="min-h-screen w-full overflow-x-hidden">
         <Navigation />
