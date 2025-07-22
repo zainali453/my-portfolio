@@ -1,0 +1,42 @@
+export function generatePersonSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Zain Ali",
+    "jobTitle": "Full Stack Developer",
+    "description": "Passionate full-stack developer with expertise in React, Next.js, TypeScript, and modern web technologies.",
+    "url": "https://zainyounas101.vercel.app",
+    "image": "https://zainyounas101.vercel.app/images/image.png",
+    "sameAs": [
+      "https://github.com/zainali453",
+      "https://linkedin.com/in/yourprofile", // Update with your actual LinkedIn
+    ],
+    "knowsAbout": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Full Stack Development",
+      "Web Development"
+    ],
+    "alumniOf": {
+      "@type": "Organization",
+      "name": "Your University" // Update with your actual education
+    }
+  }
+}
+
+export function generateWebsiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Zain Ali Portfolio",
+    "url": "https://zainyounas101.vercel.app",
+    "description": "Portfolio website of Zain Ali, a passionate full-stack developer",
+    "author": {
+      "@type": "Person",
+      "name": "Zain Ali"
+    }
+  }
+}

@@ -39,11 +39,19 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yourwebsite.com",
+    url: "https://zainyounas101.vercel.app",
     title: "Zain Ali - Full Stack Developer",
     description:
       "Passionate full-stack developer creating modern web applications",
     siteName: "Zain Ali Portfolio",
+    images: [
+      {
+        url: "https://zainyounas101.vercel.app/images/image.png",
+        width: 1200,
+        height: 630,
+        alt: "Zain Ali - Full Stack Developer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
