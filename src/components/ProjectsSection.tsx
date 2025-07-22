@@ -17,7 +17,6 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { projects } from "@/data/portfolio";
-import Image from "next/image";
 
 const categories = ["all", "web", "mobile", "fullstack", "other"];
 

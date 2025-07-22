@@ -2,16 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Menu,
-  X,
-  Home,
-  User,
-  Briefcase,
-  Code,
-  Mail,
-  FileText,
-} from "lucide-react";
+import { Menu, X, Home, User, Briefcase, Code, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -26,13 +17,10 @@ const navItems = [
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const [scrolled, setScrolled] = useState(false);
   const [isMobile, setIsMobile] = useState<boolean | undefined>(undefined);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-
       // Update active section based on scroll position
       const sections = navItems.map((item) => item.href.replace("#", ""));
       const current = sections.find((section) => {

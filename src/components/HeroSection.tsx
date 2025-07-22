@@ -2,14 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import {
-  ChevronDown,
-  Github,
-  Linkedin,
-  Mail,
-  MapPin,
-  Download,
-} from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { personalInfo } from "@/data/portfolio";
 import Link from "next/link";
@@ -133,7 +126,7 @@ export function HeroSection() {
                   className="text-lg text-gray-600 dark:text-gray-300 mb-4 flex items-center justify-center lg:justify-start gap-2"
                 >
                   <span className="text-2xl">👋</span>
-                  <span>Hello, I'm</span>
+                  <span>{"Hello, I'm"}</span>
                 </motion.p>
 
                 {/* Name */}
@@ -155,7 +148,7 @@ export function HeroSection() {
                   transition={{ delay: 0.6, duration: 0.6 }}
                   className="text-3xl sm:text-3xl lg:text-4xl text-gray-700 dark:text-gray-200 mb-8 h-20 flex items-center justify-center lg:justify-start"
                 >
-                  <span>I'm a </span>
+                  <span>{"I'm a "}</span>
                   <motion.span
                     key={currentWordIndex}
                     initial={{ opacity: 0, y: 20, scale: 0.8 }}

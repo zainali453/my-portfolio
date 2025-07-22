@@ -104,23 +104,19 @@ export function AboutSection() {
                 </h3>
                 <div className="space-y-4 text-gray-600 dark:text-gray-300 text-xl leading-relaxed">
                   <p>
-                    With over 3 years of experience in software development, I
-                    specialize in creating modern, scalable web applications
-                    using cutting-edge technologies. My journey began with a
-                    curiosity for technology and has evolved into a passion for
-                    solving complex problems through elegant code.
+                    {
+                      "With over 3 years of experience in software development, I specialize in creating modern, scalable web applications using cutting-edge technologies. My journey began with a curiosity for technology and has evolved into a passion for solving complex problems through elegant code."
+                    }
                   </p>
                   <p>
-                    I excel in both frontend and backend development, with
-                    expertise in React, Next.js, Node.js, and various database
-                    technologies. I'm particularly passionate about creating
-                    intuitive user experiences and implementing robust, scalable
-                    architectures.
+                    {
+                      "I excel in both frontend and backend development, with expertise in React, Next.js, Node.js, and various database technologies. I'm particularly passionate about creating intuitive user experiences and implementing robust, scalable architectures."
+                    }
                   </p>
                   <p>
-                    When I'm not coding, you'll find me exploring new
-                    technologies, contributing to open-source projects, or
-                    sharing knowledge with the developer community.
+                    {
+                      "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community."
+                    }
                   </p>
                 </div>
 

@@ -174,8 +174,9 @@ export function ContactSection() {
           </h2>
           <div className="w-24 h-1.5 bg-gradient-to-r from-slate-600 to-slate-800 mx-auto rounded-full mb-6" />
           <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Ready to discuss your next project or just want to say hello? I'd
-            love to hear from you!
+            {
+              "Ready to discuss your next project or just want to say hello? I'd love to hear from you!"
+            }
           </p>
         </motion.div>
 
@@ -187,7 +188,7 @@ export function ContactSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-8">
-              Let's Connect
+              {"Let's Connect"}
             </h3>
 
             <div className="space-y-6 mb-8">
@@ -255,8 +256,9 @@ export function ContactSection() {
                 Ready to work together?
               </h4>
               <p className="text-indigo-100 mb-4">
-                I'm always excited to take on new challenges and create amazing
-                digital experiences.
+                {
+                  "I'm always excited to take on new challenges and create amazing experiences."
+                }
               </p>
               <Button
                 variant="secondary"
