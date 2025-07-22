@@ -1,12 +1,17 @@
-# *
 User-agent: *
 Allow: /
-Disallow: /api/
-Disallow: /_next/
-Disallow: /admin/
 
-# Host
+# Allow important static assets
+Allow: /images/
+Allow: /_next/static/
+Allow: /favicon.ico
+Allow: /sitemap.xml
+
+# Crawl settings
+Crawl-delay: 1
+
+# Host (optional but good practice)
 Host: https://zainali.bugslashers.com
 
-# Sitemaps
+# Sitemap location
 Sitemap: https://zainali.bugslashers.com/sitemap.xml
