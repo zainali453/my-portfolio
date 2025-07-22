@@ -6,8 +6,8 @@ export function generatePersonSchema() {
     jobTitle: "Full Stack Developer",
     description:
       "Passionate full-stack developer with expertise in React, Next.js, TypeScript, and modern web technologies.",
-    url: "https://zainyounas101.vercel.app",
-    image: "https://zainyounas101.vercel.app/images/image.png",
+    url: "https://zainyounas.vercel.app",
+    image: "https://zainyounas.vercel.app/images/image.png",
     sameAs: [
       "https://github.com/zainali453",
       "https://linkedin.com/in/zainyounas", // Update with your actual LinkedIn
@@ -33,7 +33,7 @@ export function generateWebsiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Zain Ali Portfolio",
-    url: "https://zainyounas101.vercel.app",
+    url: "https://zainyounas.vercel.app",
     description:
       "Portfolio website of Zain Ali, a passionate full-stack developer",
     author: {
