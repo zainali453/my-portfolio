@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://zainyounas.vercel.app
+Host: https://zainali.bugslashers.com
 
 # Sitemaps
-Sitemap: https://zainyounas.vercel.app/sitemap.xml
+Sitemap: https://zainali.bugslashers.com/sitemap.xml

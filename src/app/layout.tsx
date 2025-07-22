@@ -45,14 +45,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://zainyounas.vercel.app",
+    url: "https://zainali.bugslashers.com",
     title: "Zain Ali - Full Stack Developer",
     description:
       "Passionate full-stack developer creating modern web applications",
     siteName: "Zain Ali Portfolio",
     images: [
       {
-        url: "https://zainyounas.vercel.app/images/image.png",
+        url: "https://zainali.bugslashers.com/images/image.png",
         width: 1200,
         height: 630,
         alt: "Zain Ali - Full Stack Developer",
@@ -69,9 +69,6 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-  },
-  verification: {
-    google: "l1PaSTS31oEt7Oxfr2SuTzUzi9g0MaXcXX4dgWsR7Wk",
   },
 };
 

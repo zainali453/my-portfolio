@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: "https://zainyounas.vercel.app",
+  siteUrl: "https://zainali.bugslashers.com",
   generateRobotsTxt: true,
 };
