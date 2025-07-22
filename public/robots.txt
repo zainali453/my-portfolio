@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zainyounas.vercel.app
+
+# Sitemaps
+Sitemap: https://zainyounas.vercel.app/sitemap.xml
