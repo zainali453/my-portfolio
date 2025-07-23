@@ -11,7 +11,7 @@ Allow: /sitemap.xml
 Crawl-delay: 1
 
 # Host (optional but good practice)
-Host: https://zainali.bugslashers.com
+Host: https://zain.bugslashers.com
 
 # Sitemap location
-Sitemap: https://zainali.bugslashers.com/sitemap.xml
+Sitemap: https://zain.bugslashers.com/sitemap.xml

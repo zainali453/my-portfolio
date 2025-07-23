@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     "Responsive Design",
     "UI/UX Development",
   ],
-  authors: [{ name: "Zain Ali", url: "https://zainali.bugslashers.com" }],
+  authors: [{ name: "Zain Ali", url: "https://zain.bugslashers.com" }],
   creator: "Zain Ali",
   publisher: "Zain Ali",
   formatDetection: {
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://zainali.bugslashers.com",
+    url: "https://zain.bugslashers.com",
     title:
       "Zain Ali - Full Stack Developer | React, Next.js, TypeScript Expert",
     description:
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     siteName: "Zain Ali Portfolio",
     images: [
       {
-        url: "https://zainali.bugslashers.com/images/image.png",
+        url: "https://zain.bugslashers.com/images/image.png",
         width: 1200,
         height: 630,
         alt: "Zain Ali - Full Stack Developer Portfolio",
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     description:
       "Passionate full-stack developer creating modern web applications. Specializing in React, Next.js, and TypeScript.",
     creator: "@zainali73938845", // Update with your actual Twitter handle
-    images: ["https://zainali.bugslashers.com/images/image.png"],
+    images: ["https://zain.bugslashers.com/images/image.png"],
   },
   robots: {
     index: true,
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://zainali.bugslashers.com",
+    canonical: "https://zain.bugslashers.com",
   },
   category: "technology",
 };

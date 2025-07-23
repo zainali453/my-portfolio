@@ -7,10 +7,10 @@ export function generatePersonSchema() {
     jobTitle: "Full Stack Developer",
     description:
       "Passionate full-stack developer with expertise in React, Next.js, TypeScript, and modern web technologies. Creating beautiful, functional, and user-friendly applications.",
-    url: "https://zainali.bugslashers.com",
+    url: "https://zain.bugslashers.com",
     image: {
       "@type": "ImageObject",
-      url: "https://zainali.bugslashers.com/images/image.png",
+      url: "https://zain.bugslashers.com/images/image.png",
       width: 400,
       height: 400,
     },
@@ -61,13 +61,13 @@ export function generateWebsiteSchema() {
     "@type": "WebSite",
     name: "Zain Ali Portfolio",
     alternateName: "Zain Ali - Full Stack Developer",
-    url: "https://zainali.bugslashers.com",
+    url: "https://zain.bugslashers.com",
     description:
       "Portfolio website of Zain Ali, a passionate full-stack developer specializing in React, Next.js, and TypeScript",
     author: {
       "@type": "Person",
       name: "Zain Ali",
-      url: "https://zainali.bugslashers.com",
+      url: "https://zain.bugslashers.com",
     },
     publisher: {
       "@type": "Person",
@@ -75,14 +75,14 @@ export function generateWebsiteSchema() {
     },
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://zainali.bugslashers.com/?search={search_term_string}",
+      target: "https://zain.bugslashers.com/?search={search_term_string}",
       "query-input": "required name=search_term_string",
     },
     mainEntity: {
       "@type": "Person",
       name: "Zain Ali",
       jobTitle: "Full Stack Developer",
-      url: "https://zainali.bugslashers.com",
+      url: "https://zain.bugslashers.com",
     },
   };
 }
@@ -94,8 +94,8 @@ export function generateProfessionalServiceSchema() {
     name: "Zain Ali - Full Stack Development Services",
     description:
       "Professional web development services specializing in React, Next.js, and TypeScript applications",
-    url: "https://zainali.bugslashers.com",
-    image: "https://zainali.bugslashers.com/images/image.png",
+    url: "https://zain.bugslashers.com",
+    image: "https://zain.bugslashers.com/images/image.png",
     serviceType: "Web Development",
     provider: {
       "@type": "Person",

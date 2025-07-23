@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "https://zainali.bugslashers.com",
+  siteUrl: "https://zain.bugslashers.com",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   changefreq: "weekly",
@@ -13,7 +13,7 @@ module.exports = {
         disallow: ["/api/", "/_next/", "/admin/"],
       },
     ],
-    additionalSitemaps: ["https://zainali.bugslashers.com/sitemap.xml"],
+    additionalSitemaps: ["https://zain.bugslashers.com/sitemap.xml"],
   },
   transform: async (config, path) => {
     return {

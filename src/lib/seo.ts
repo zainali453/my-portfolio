@@ -4,8 +4,8 @@ export const siteConfig = {
   title: "Zain Ali - Full Stack Developer | React, Next.js, TypeScript Expert",
   description:
     "Passionate full-stack developer with expertise in React, Next.js, TypeScript, and modern web technologies. Creating beautiful, functional, and user-friendly applications. Available for hire.",
-  url: "https://zainali.bugslashers.com",
-  ogImage: "https://zainali.bugslashers.com/images/image.png",
+  url: "https://zain.bugslashers.com",
+  ogImage: "https://zain.bugslashers.com/images/image.png",
   creator: "Zain Ali",
   keywords: [
     "Full Stack Developer",
